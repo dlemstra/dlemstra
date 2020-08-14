@@ -1,13 +1,14 @@
 <svg fill="none" viewBox="0 0 854 250" xmlns="http://www.w3.org/2000/svg">
   <foreignObject width="100%" height="100%">
     <div xmlns="http://www.w3.org/1999/xhtml">
+      <style src="https://cdn.jsdelivr.net/npm/hack-font@3/build/web/hack.css"/>
       <style>
         .text {
           text-align: center;
           text-decoration: underline;
           font-size: 15px;
           font-weight: bold;
-          font-style: "Lucida Console", Monaco, monospace;
+          font-family: "Hack";
         }
         .text_animated {
           background: linear-gradient(to right, #ff00ff, #ff9900, #ff0000, #6600ff);
