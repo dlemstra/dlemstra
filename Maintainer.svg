@@ -1,20 +1,23 @@
-<svg fill="none" viewBox="0 0 854 300" xmlns="http://www.w3.org/2000/svg">
+<svg fill="none" viewBox="0 0 854 330" xmlns="http://www.w3.org/2000/svg">
   <foreignObject width="100%" height="100%">
     <div xmlns="http://www.w3.org/1999/xhtml">
       <style src="https://cdn.jsdelivr.net/npm/hack-font@3/build/web/hack.css"/>
       <style>
         .hack {
-          text-align: center;
           font-weight: bold;
           font-family: "Hack";
         }
         .text {
+          text-align: center;
           text-decoration: underline;
           font-size: 15px;
         }
         .intro {
-          font-size: 10px;
+          text-align: left;
+          font-size: 13px;
           white-space: pre-line;
+          display: table;
+          margin: 0 auto;
         }
         .text_animated {
           background: linear-gradient(to right, #ff00ff, #ff9900, #ff0000, #6600ff);
@@ -46,10 +49,11 @@ M M M  AAAAA    I    N N N    T    AAAAA    I    N N N  EEE    RRRR
 M   M  A   A    I    N  NN    T    A   A    I    N  NN  E      R R  
 M   M  A   A  IIIII  N   N    T    A   A  IIIII  N   N  EEEEE  R  R </pre>
         <div class="hack intro">
-          Hey, I’m Dirk, 👋 an open source maintainer and full-time developer living in the Netherlands
-          with my wife, and our husky 🐕. I maintain ImageMagick, and created a .NET standard/framework
-          library for ImageMagick called Magick.NET. I’m also involved in other open source image libraries
-          so feel free to reach out if you need help performing magick 🧙🏻‍♂️ with images.
+          Hey, I’m Dirk, 👋 an open source maintainer and full-time developer living in
+          the Netherlands with my wife, and our husky 🐕. I maintain ImageMagick, and
+          created a .NET standard/framework library for ImageMagick called Magick.NET.
+          I’m also involved in other open source image libraries so feel free to reach
+          out if you need help performing magick 🧙🏻‍♂️ with images.
         </div>
       </div>
     </div>
