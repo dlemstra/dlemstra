@@ -15,6 +15,7 @@
         .intro {
           text-align: left;
           font-size: 13px;
+          color: #ff00ff;
           white-space: pre-line;
           display: table;
           margin: 0 auto;
