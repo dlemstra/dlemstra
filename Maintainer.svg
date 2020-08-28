@@ -14,7 +14,7 @@
         }
         .hack {
           font-weight: bold;
-          font-family: 'HackNormal';
+          font-family: 'HackNormal', 'monospace';
         }
         .text {
           text-align: center;
