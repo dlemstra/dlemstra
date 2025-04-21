@@ -1,0 +1,79 @@
+{
+  "$schema": "https://floss.fund/schema/v1.0.0/funding.schema.json#",
+  "version": "v1.0.0",
+  "entity": {
+    "type": "individual",
+    "role": "maintainer",
+    "name": "Dirk Lemstra",
+    "email": "dirk@lemstra.org",
+    "description": "Maintainer of ImageMagick and other projects that use ImageMagick.",
+    "webpageUrl": {
+      "url": "https://github.com/dlemstra"
+    }
+  },
+  "projects": [
+    {
+      "guid": "magick-net",
+      "name": "Magick.NET",
+      "description": "The .NET library for ImageMagick",
+      "webpageUrl": {
+        "url": "https://github.com/dlemstra/Magick.NET"
+      },
+      "repositoryUrl": {
+        "url": "https://github.com/dlemstra/Magick.NET"
+      },
+      "licenses": [
+        "Apache-2.0"
+      ],
+      "tags": [
+        "imagemagick",
+        "image",
+        "resize",
+        "exif"
+      ]
+    },
+    {
+      "guid": "magick-wasm",
+      "name": "magick-wasm",
+      "description": "The WASM library for ImageMagick",
+      "webpageUrl": {
+        "url": "https://github.com/dlemstra/magick-wasm"
+      },
+      "repositoryUrl": {
+        "url": "https://github.com/dlemstra/magick-wasm"
+      },
+      "licenses": [
+        "Apache-2.0"
+      ],
+      "tags": [
+        "imagemagick",
+        "webassembly",
+        "wasm"
+      ]
+    }
+  ],
+  "funding": {
+    "channels": [
+      {
+        "guid": "github-sponsors",
+        "type": "payment-provider",
+        "address": "https://github.com/sponsors/dlemstra",
+        "description": "Payments up to $12,000 USD per month can be made via Github Sponsors."
+      }
+    ],
+    "plans": [
+      {
+        "guid": "developer-time",
+        "status": "active",
+        "name": "Developer compensation",
+        "description": "This compensates the developers working part-time on the project.",
+        "amount": 0,
+        "currency": "USD",
+        "frequency": "monthly",
+        "channels": [
+          "github-sponsors"
+        ]
+      }
+    ]
+  }
+}
