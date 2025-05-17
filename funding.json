@@ -27,6 +27,7 @@
       ],
       "tags": [
         "imagemagick",
+        "dotnet",
         "image",
         "resize",
         "exif"
@@ -47,6 +48,7 @@
       ],
       "tags": [
         "imagemagick",
+        "typescript",
         "webassembly",
         "wasm"
       ]
